@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>NexGen - NexGen Digital Market</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <!-- Favicon -->
+    <link href="img/logo_sample.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Rubik&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<!-- TOP Blue BAR 
+    <header class="top-bar">
+    <div class="top-bar-inner container">
+        <div class="top-left">
+            <a class="contact-item" href="tel:+919910075663" aria-label="Call us">
+            <span class="contact-icon">📞</span>
+            <span class="contact-text">+91-844 844 3001</span>
+            </a>
+
+        <a class="contact-item" href="mailto:info@digitalmarketingking.in" aria-label="Email us">
+            <span class="contact-icon">✉️</span>
+            <span class="contact-text">mail@nexgenint.com</span>
+            </a>
+         </div>
+
+    <div class="top-right">
+// social icons (replace href with your profiles) 
+      <nav class="social">
+        <a href=" https://www.facebook.com/share/17Xi5ZGCwQ/" target="_blank" aria-label="Facebook" class="social-link">
+          <svg viewBox="0 0 24 24" class="icon"><path d="M22 12a10 10 0 1 0-11.5 9.9v-7h-2.3V12h2.3V9.5c0-2.3 1.4-3.6 3.4-3.6.98 0 2.01.18 2.01.18v2.2h-1.12c-1.1 0-1.44.68-1.44 1.38V12h2.45l-.39 2.9h-2.06v7A10 10 0 0 0 22 12z"/></svg>
+        </a>
+
+        <a href="https://x.com/ResearchNexgen?t=tmr7oCUCUrVNZTupoV2WgQ&s=09" target="_blank" aria-label="Twitter" class="social-link">
+          <svg viewBox="0 0 24 24" class="icon"><path d="M22 5.92c-.66.29-1.36.49-2.1.58.76-.45 1.34-1.17 1.61-2.03-.7.42-1.48.73-2.31.9C18.2 4.14 17 3.5 15.66 3.5c-2.08 0-3.77 1.7-3.77 3.8 0 .3.03.6.1.88-3.13-.16-5.91-1.66-7.77-3.95-.33.57-.53 1.23-.53 1.94 0 1.34.67 2.52 1.69 3.22-.62-.02-1.2-.19-1.71-.48v.05c0 1.86 1.31 3.41 3.05 3.77-.32.09-.66.13-1.01.13-.25 0-.5-.02-.74-.07.5 1.56 1.96 2.69 3.68 2.72-1.35 1.06-3.06 1.69-4.91 1.69-.32 0-.64-.02-.95-.06 1.77 1.14 3.87 1.8 6.13 1.8 7.35 0 11.37-6.09 11.37-11.37v-.52c.78-.57 1.46-1.28 2-2.09-.72.32-1.48.53-2.27.63z"/></svg>
+        </a>
+
+        <a href="https://www.instagram.com/nexgen_official_360?igsh=aHY1MDc5MTlxYjZ1" target="_blank" aria-label="Instagram" class="social-link">
+          <svg viewBox="0 0 24 24" class="icon"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm5 6.2A4.8 4.8 0 1 0 16.8 13 4.8 4.8 0 0 0 12 8.2zm4.8-2.1a1.1 1.1 0 1 0 1.1 1.1 1.1 1.1 0 0 0-1.1-1.1z"/></svg>
+        </a>
+
+        <a href="https://whatsapp.com/channel/0029VbBjGgG0rGiNtvnuYW3v" target="_blank" aria-label="WhatsApp" class="social-link">
+          <svg viewBox="0 0 24 24" class="icon"><path d="M.057 24l1.687-6.163a11.946 11.946 0 0 1-1.678-6.028C.066 5.373 5.48 0 12.03 0c3.2 0 6.192 1.24 8.438 3.486A11.84 11.84 0 0 1 24 11.92a11.9 11.9 0 0 1-3.513 8.437c-2.247 2.246-5.238 3.477-8.438 3.477a11.96 11.96 0 0 1-6.982-2.094L.057 24zM17.4 14.3c-.3-.15-1.76-.86-2.04-.96-.28-.1-.48-.15-.68.15-.2.28-.76.96-.93 1.16-.17.2-.34.22-.64.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.28-.02-.43.13-.57.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2 0-.38-.05-.53-.05-.15-.68-1.6-.93-2.2-.24-.58-.49-.5-.68-.51l-.58-.01c-.2 0-.5.07-.76.35-.26.28-1 1-1 2.45 0 1.45 1.03 2.86 1.17 3.06.14.2 2 3.1 4.85 4.34 2.86 1.24 2.86.83 3.38.78.5-.05 1.76-.72 2.01-1.42.25-.7.25-1.3.17-1.42-.08-.13-.28-.2-.58-.35z"/></svg>
+        </a>
+      </nav>
+    </div>
+  </div>
+</header>-->
+
+<body>
+    <!-- Navbar Start -->
+    <div class="container-fluid bg-white position-relative">
+        <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 fixed-nav">
+        <a href="index.html" class="navbar-brand text-secondary d-flex align-items-center">
+        <img src="img/logo_sample.png" alt="Company Logo" class="logo me-2">
+        <h1 class="brand-title mb-0">
+            <span class="blue-text">NexGen</span>
+            <span class="green-text">Digital</span>
+        </h1>
+
+        </a>
+
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ml-auto py-0 pr-3 border-right">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="service.html" class="nav-item nav-link">Services</a>
+                    <a href="price.html" class="nav-item nav-link">Prices</a>
+                    <a href="project.html" class="nav-item nav-link">Projects</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a href="team.html" class="dropdown-item">Meet The Team</a>
+                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+                <div class="d-none d-lg-flex align-items-center pl-4">
+
+                    <div>
+                    <!-- Inside your navbar -->
+                    <a href="tel:+91844 844 3001" class="btn btn-call-now ml-lg-3">
+                    CALL NOW
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+<section class="nx-hero-center">
+  <div class="nx-hero-content">
+
+    <h1 class="nx-hero-heading">
+      Your Vision, Transformed Into Digital Success
+    </h1>
+
+    <p class="nx-hero-sub">
+      We help brands grow faster with powerful performance-driven digital marketing strategies.
+    </p>
+
+    <a href="service.html" class="nx-hero-btn">
+      Explore Our Services
+    </a>
+
+  </div>
+</section>
+
+<!-- ============================
+ DIGITAL MARKETING SECTION
+============================ -->
+<section class="dm-section" aria-labelledby="ads-heading">
+
+  <header class="dm-header">
+    <div class="dm-kicker">Available to businesses of every size</div>
+
+    <h1 id="ads-heading" class="dm-title">
+      Advertising That Helps Your Business Grow
+    </h1>
+
+    <p class="dm-subtitle">
+      Reach customers at every stage of their journey with easy-to-use advertising tools built for all experience levels.
+    </p>
+  </header>
+
+  <!-- CARDS -->
+  <div class="dm-cards" role="list">
+
+    <!-- CARD 1 -->
+    <article class="card" role="listitem">
+      <div class="icon-wrap">
+        <img src="img/cart.png" alt="icon" class="icon-img">
+      </div>
+      <div>
+        <h3 class="card-heading">Reach Customers as They Shop</h3>
+        <p>
+          Show your products to shoppers in real time and connect with a global audience actively searching for items like yours.
+        </p>
+      </div>
+    </article>
+
+    <!-- CARD 2 -->
+    <article class="card" role="listitem">
+      <div class="icon-wrap">
+        <img src="img/thums_up.png" alt="icon" class="icon-img">
+      </div>
+      <div>
+        <h3 class="card-heading">Ad Solutions for Every Budget</h3>
+        <p>
+          Choose a budget that fits your business and scale as your ads start delivering real results.
+        </p>
+      </div>
+    </article>
+
+    <!-- CARD 3 -->
+    <article class="card" role="listitem">
+      <div class="icon-wrap">
+        <img src="img/upr_dollar.png" alt="icon" class="icon-img">
+      </div>
+      <div>
+        <h3 class="card-heading">Fast, guided campaign setup</h3>
+        <p>
+          Launch optimized ads in minutes with guided setup and real-time insights.
+        </p>
+      </div>
+    </article>
+
+  </div>
+
+  <!-- CTA -->
+  <div class="dm-cta">
+    <h4 class="cta-heading">Not sure where to start?</h4>
+    <p class="cta-sub">Find the right advertising path personalized for your business goals.</p>
+
+    <a class="btn-blue" href="contact.html">Get started</a>
+  </div>
+
+</section>
+<!-- end -->
+
+
+
+<section class="ads-section">
+  <div class="ads-inner">
+
+    <h2 class="ads-title">Ad solutions for every budget</h2>
+
+    <div class="ads-grid">
+
+      <article class="ads-card">
+        <div class="ads-icon">
+          <img src="img/coin.png" alt="icon" class="ads-img">
+        </div>
+        <h3 class="ads-card-title">No up-front fees</h3>
+        <p class="ads-card-desc">
+          Pricing is <strong>cost-per-click</strong>, meaning you only pay when someone clicks your ad.
+        </p>
+      </article>
+
+      <article class="ads-card">
+        <div class="ads-icon">
+          <img src="img/flower.png" alt="icon" class="ads-img">
+        </div>
+        <h3 class="ads-card-title">Start small</h3>
+        <p class="ads-card-desc">
+          Begin with a small budget and scale as you see results.
+        </p>
+      </article>
+
+      <article class="ads-card">
+        <div class="ads-icon">
+          <img src="img/dollar.png" alt="icon" class="ads-img">
+        </div>
+        <h3 class="ads-card-title">Set your own budget</h3>
+        <p class="ads-card-desc">
+          You’re always in control — never charged more than your limit.
+        </p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+
+
+<!-- ========== PROCESS FLOW (horizontal desktop, vertical mobile) ========== -->
+<section class="process-flow" aria-label="Our Working Process">
+  <h2 class="pf-title">Our Working Process</h2>
+
+  <div class="pf-title-underline" aria-hidden="true">
+    <div class="pf-title-underline-run"></div>
+  </div>
+
+  <div class="pf-wrapper">
+
+    <!-- HORIZONTAL SVG LINE (desktop) - its left/width are trimmed by --line-offset -->
+    <svg class="pf-svg" viewBox="0 0 1200 40" preserveAspectRatio="none" aria-hidden="true">
+      <line x1="0" y1="20" x2="1200" y2="20"
+            stroke="#e8b84a"
+            stroke-width="5"
+            stroke-dasharray="12 10"
+            stroke-linecap="round" />
+    </svg>
+
+    <!-- VERTICAL SVG LINE (mobile) - shown only on small screens -->
+    <svg class="pf-vertical-svg" viewBox="0 0 40 1200" preserveAspectRatio="none" aria-hidden="true">
+      <line x1="20" y1="0" x2="20" y2="1200"
+            stroke="#e8b84a"
+            stroke-width="5"
+            stroke-dasharray="12 10"
+            stroke-linecap="round" />
+    </svg>
+
+    <!-- Optional fallback raster (your uploaded premium dashed image) -->
+    <img src="/mnt/data/A_high-resolution_vector_graphic_features_a_dashed.png"
+         alt="golden dashed fallback"
+         class="pf-fallback-img" aria-hidden="true">
+
+    <!-- CIRCLES: horizontally on desktop, vertically stacked on mobile -->
+    <div class="pf-items" role="list">
+
+      <div class="pf-item" role="listitem">
+        <div class="pf-circle pf-green" tabindex="0">
+          <img src="img/process1.webp" class="pf-icon" alt="Analysis icon">
+        </div>
+        <div class="pf-label">01. Analysis</div>
+      </div>
+
+      <div class="pf-item" role="listitem">
+        <div class="pf-circle pf-yellow" tabindex="0">
+          <img src="img/process2.webp" class="pf-icon" alt="Design icon">
+        </div>
+        <div class="pf-label">02. Design</div>
+      </div>
+
+      <div class="pf-item" role="listitem">
+        <div class="pf-circle pf-blue" tabindex="0">
+          <img src="img/process3.webp" class="pf-icon" alt="Development icon">
+        </div>
+        <div class="pf-label">03. Development</div>
+      </div>
+
+      <div class="pf-item" role="listitem">
+        <div class="pf-circle pf-black" tabindex="0">
+          <img src="img/process4.webp" class="pf-icon" alt="Launch icon">
+        </div>
+        <div class="pf-label">04. Launch</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- ========== END PROCESS FLOW ========== -->
+
+
+<!-- About Start -->
+  <div class="container-fluid py-5 about-gap">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <img class="img-fluid mb-4 mb-lg-0" src="img/new_try.svg" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="display-4 text-uppercase mb-4" style="color:#000000 !important;">Best digital agency in downtown</h1>
+                    <h5 class="text-uppercase text-primary mb-3">Your trusted digital marketing partner — the top agency in downtown.</h5>
+                    <p class="mb-4">Digital marketing is the heartbeat of today’s online success. It helps businesses reach the right audience, build strong brand awareness, and boost sales through powerful online strategies.</p>
+                    <p id="text">Digital marketing refers to all marketing efforts that use electronic devices or the internet.Businesses use digital channels such as search engines, websites, social media, email, and online advertising to connect with potential customers.</p>
+                    <p><span id="moreText" style="display: none;">It is measurable, cost-effective, and allows businesses to reach a global audience.</span>
+                    </p>
+                <button id="readMoreBtn" type="button" class="btn btn-primary text-uppercase py-3 px-5">Read More</button>
+            </div>
+        </div>
+    </div>
+  <!-- About End -->
+
+    <!-- Services Start -->
+    <div class="container-fluid py-5">
+        <div class="container pt-5 pb-3">
+            <h1 class="display-4 text-uppercase text-center mb-5" style="color:#000000 !important;">Our Creative Services</h1>
+            <div class="row">
+                <div class="col-lg-3 mb-2">
+                    <div class="service-item rounded p-5 mb-4">
+                        <i class="fa fa-3x fa-laptop-code text-primary mb-4"></i>
+                        <h4 class="text-uppercase mb-4">Search Engine Optimization <span class="d-block text-body">(SEO)</span></h4>
+                        <p class="m-0">Rank your website on top of Google.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-2">
+                    <div class="service-item rounded p-5 mb-4">
+                        <i class="fa fa-3x fa-code text-primary mb-4"></i>
+                        <h4 class="text-uppercase mb-4">Paid Advertising <span class="d-block text-body">Google Ads</span></h4>
+                        <p class="m-0">Get instant leads and conversions.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-2">
+                    <div class="service-item rounded p-5 mb-4">
+                        <i class="fa fa-3x fa-envelope-open-text text-primary mb-4"></i>
+                        <h4 class="text-uppercase mb-4">Digital <span class="d-block text-body">Marketing</span></h4>
+                        <p class="m-0">Digital marketing that drives real results</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-2">
+                    <div class="service-item rounded p-5 mb-4">
+                        <i class="fa fa-3x fa-edit text-primary mb-4"></i>
+                        <h4 class="text-uppercase mb-4">Content <span class="d-block text-body">Writing</span></h4>
+                        <p class="m-0">Attract customers with high-quality content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services End -->
+
+
+    <!-- Portfolio Start -->
+    <div class="container-fluid py-5">
+        <div class="container pt-5 pb-3">
+            <h1 class="display-4 text-uppercase text-center mb-5">Visit Our Projects</h1>
+            <div class="row">
+                <div class="col-12 text-center mb-2">
+                    <ul class="list-inline mb-4" id="portfolio-flters">
+                        <li class="btn btn-outline-dark text-uppercase py-2 px-4 active" data-filter="*">
+                            <i class="fa fa-star text-primary mr-2"></i>All
+                        </li>
+                        <li class="btn btn-outline-dark text-uppercase py-2 px-4" data-filter=".first">
+                            <i class="fa fa-laptop-code text-primary mr-2"></i>Design
+                        </li>
+                        <li class="btn btn-outline-dark text-uppercase py-2 px-4" data-filter=".second">
+                            <i class="fa fa-mobile-alt text-primary mr-2"></i>Development
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row portfolio-container">
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative rounded overflow-hidden mb-2">
+                        <img class="img-fluid w-100" src="img/portfolio-1.jpg" alt="">
+                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-1.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-4x fa-plus text-primary"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative rounded overflow-hidden mb-2">
+                        <img class="img-fluid w-100" src="img/portfolio-2.jpg" alt="">
+                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-2.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-4x fa-plus text-primary"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative rounded overflow-hidden mb-2">
+                        <img class="img-fluid w-100" src="img/portfolio-3.jpg" alt="">
+                        <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-3.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-4x fa-plus text-primary"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio End -->
+
+    <!-- Team Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <h1 class="display-4 text-uppercase text-center mb-5" style="color:#000000 !important;">Meet Our Team</h1>
+
+            <div class="owl-carousel team-carousel position-relative" style="padding-left: 30px;">
+                <div class="team-item rounded overflow-hidden">
+                    <div class="position-relative">
+                        <img class="img-fluid w-100" src="img/tarun.JPG" alt="">
+                        <div class="team-overlay">
+                            <div class="d-flex align-items-center justify-content-start">
+                                <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-light text-center p-4">
+                        <h4 class="text-uppercase">Tarun</h4>
+                        <p class="m-0">Senior Manager</p>
+                    </div>
+                </div>
+                <div class="team-item rounded overflow-hidden">
+                    <div class="position-relative">
+                        <img class="img-fluid w-100" src="img/Devendra.jpg" alt="">
+                        <div class="team-overlay">
+                            <div class="d-flex align-items-center justify-content-start">
+                                <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-light text-center p-4">
+                        <h4 class="text-uppercase">Devendra Bhatt</h4>
+                        <p class="m-0">Coo</p>
+                    </div>
+                </div>
+                <div class="team-item rounded overflow-hidden">
+                    <div class="position-relative">
+                        <img class="img-fluid w-100" src="img/kailash.jpeg" alt="">
+                        <div class="team-overlay">
+                            <div class="d-flex align-items-center justify-content-start">
+                                <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-light text-center p-4">
+                        <h4 class="text-uppercase">Kailash Goswami</h4>
+                        <p class="m-0">Designer</p>
+                    </div>
+                </div>
+                <div class="team-item rounded overflow-hidden">
+                    <div class="position-relative">
+                        <img class="img-fluid w-100" src="img/geetika.JPG" alt="">
+                        <div class="team-overlay">
+                            <div class="d-flex align-items-center justify-content-start">
+                                <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-light text-center p-4">
+                        <h4 class="text-uppercase">geetika</h4>
+                        <p class="m-0">Manager</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <h1 class="display-4 text-uppercase text-center mb-5" style="color:#000000 !important;">Our Client's Say</h1>
+
+            <div class="owl-carousel testimonial-carousel">
+                <div class="testimonial-item position-relative text-center rounded p-4">
+                    <img class="img-fluid rounded mx-auto my-4" src="img/client1.jpg" alt="">
+                    <h5 class="text-uppercase" style="color:#00b140 !important;">Client Name</h5>
+                    <p class="text-uppercase">Profession</p>
+                    <p class="text-secondary">There is a Brief details about the project. so go through it</p>
+                </div>
+                <div class="testimonial-item position-relative text-center rounded p-4">
+                    <img class="img-fluid rounded mx-auto my-4" src="img/client2.jpg" alt="">
+                    <h5 class="text-uppercase" style="color:#00b140 !important;">Client Name</h5>
+                    <p class="text-uppercase">Profession</p>
+                    <p class="text-secondary">There is a Brief details about the project. so go through it</p>
+                </div>
+                <div class="testimonial-item position-relative text-center rounded p-4">
+                    <img class="img-fluid rounded mx-auto my-4" src="img/client3.jpg" alt="">
+                    <h5 class="text-uppercase" style="color:#00b140 !important;">Client Name</h5>
+                    <p class="text-uppercase">Profession</p>
+                    <p class="text-secondary">There is a Brief details about the project. so go through it</p>
+                </div>
+                <div class="testimonial-item position-relative text-center rounded p-4">
+                    <img class="img-fluid rounded mx-auto my-4" src="img/client4.jpg" alt="">
+                    <h5 class="text-uppercase" style="color:#00b140 !important;">Client Name</h5>
+                    <p class="text-uppercase">Profession</p>
+                    <p class="text-secondary">There is a Brief details about the project. so go through it</p>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Contact Start -->
+    <div class="container-fluid py-5 px-0">
+        <div class="row mt-5 mx-0">
+            <div class="col-12 px-0" style="height: 500px;">
+                <div class="position-relative h-100">
+                    <iframe class="position-relative w-100 h-100"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3483.7758234378307!2d79.51871137453244!3d29.171277659413896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x454117ed140c1445%3A0xa828fcbaedd6ce9a!2sNexGen%20DigitalWorld!5e0!3m2!1sen!2sin!4v1762932327558!5m2!1sen!2sin"
+                        frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                        tabindex="0"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="row mx-0 justify-content-center" style="margin-top: -200px;">
+            <div class="col-lg-6 col-md-8 col-sm-10 px-0">
+                <div class="contact-form bg-white rounded p-5">
+                    <div id="success"></div>
+                    <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                        <div class="form-row">
+                            <div class="col-md-6">
+                                <div class="control-group">
+                                    <input type="text" class="form-control bg-light border-0 p-4" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="control-group">
+                                    <input type="email" class="form-control bg-light border-0 p-4" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <input type="text" class="form-control bg-light border-0 p-4" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="control-group">
+                            <textarea class="form-control bg-light border-0 py-3 px-4" rows="5" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="text-center">
+                            <button class="btn btn-primary text-uppercase py-3 px-5" type="submit" id="sendMessageButton">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white-50 py-5 px-sm-3 px-md-5" style="margin-top: 90px;">
+        <div class="row pt-5">
+            <div class="col-lg-3 col-md-6 mb-5">
+                <a href="index.html" class="navbar-brand">
+                   <h1 class="m-0 mt-n2 text-white display-4" style="margin-bottom:1.5rem !important;">NexGen Digital</h1>
+                    </a>
+                <p>With NexGen Digital, you can attract, impress, and convert more leads online and get results.</p>
+                <h6 class="text-uppercase text-white py-2">Follow Us</h6>
+                <div class="d-flex justify-content-start">
+                    <a class="btn btn-lg btn-primary btn-lg-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-lg btn-primary btn-lg-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-lg btn-primary btn-lg-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-lg btn-primary btn-lg-square" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="text-uppercase text-white mb-4">Get In Touch</h4>
+                <p>Bareilly - Nainital Rd, near Mahaveer Floor Mill, Gorapadao, Haldwani, Dhaula Khera, Uttarakhand 263 139</p>
+                <p><i class="fa fa-map-marker-alt text-white mr-2"></i>123 Street, New York, USA</p>
+                <p><i class="fa fa-phone-alt text-white mr-2"></i>+012 345 67890</p>
+                <p><i class="fa fa-envelope text-white mr-2"></i>info@example.com</p>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="text-uppercase text-white mb-4">Quick Links</h4>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right text-white mr-2"></i>Home</a>
+                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right text-white mr-2"></i>About Us</a>
+                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right text-white mr-2"></i>Our Services</a>
+                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right text-white mr-2"></i>Pricing Plan</a>
+                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right text-white mr-2"></i>Meet The Team</a>
+                    <a class="text-white-50" href="#"><i class="fa fa-angle-right text-white mr-2"></i>Contact Us</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h4 class="text-uppercase text-white mb-4">Newsletter</h4>
+                <p class="mb-4">It encompasses various strategies and tactics like search engine optimization (SEO), social media marketing, content marketing, and email marketing</p>
+                <div class="w-100 mb-3">
+                    <div class="input-group">
+                        <input type="text" class="form-control border-light" style="padding: 25px;" placeholder="Your Email">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary text-uppercase px-3">Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+                <i>If You Need Any Help Contact US</i>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid py-4 px-sm-3 px-md-5" style="background: #111111;">
+       <p class="mb-2 text-center text-white-50" style="color:#ffffff !important;">&copy; <a href="#" style="color:#dbe7e0 !important;">NexGen Digital</a>. All Rights Reserved.</p>
+
+      <p class="m-0 text-center text-white-50" style="color:#ffffff !important;">Developed by <a href="" style="color:#ffffff !important;">@Kailash</a></p>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-up"></i></a>
+
+
+    <!-- ===== AI Assistant Chatbot (Bottom Left) ===== -->
+<div class="chatbot-widget">
+
+  <!-- Floating Robot Button -->
+  <button class="chatbot-toggle" id="chatbotToggle" aria-label="Open chat">
+    <span class="chatbot-toggle-icon">🤖</span>
+  </button>
+
+  <!-- Chat Window -->
+  <div class="chatbot-window" id="chatbotWindow">
+    <div class="chatbot-header">
+      <div class="chatbot-header-left">
+        <span class="chatbot-avatar">🤖</span>
+        <div>
+          <div class="chatbot-title">AI Assistant</div>
+          <div class="chatbot-status">Online</div>
+        </div>
+      </div>
+      <button class="chatbot-close" id="chatbotClose">✕</button>
+    </div>
+
+    <div class="chatbot-messages" id="chatbotMessages">
+      <div class="chatbot-message bot">
+        <p>Hello! How can I help you today?</p>
+      </div>
+    </div>
+
+    <form class="chatbot-input-area" id="chatbotForm">
+      <input
+        type="text"
+        id="chatbotInput"
+        class="chatbot-input"
+        placeholder="Type your message..."
+        autocomplete="off"
+      />
+      <button type="submit" class="chatbot-send-btn">➤</button>
+    </form>
+  </div>
+</div>
+<!-- ===== /Chatbot ===== -->
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
